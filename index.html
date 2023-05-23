@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Frontend Mentor | Interactive pricing component</title>
+
+
+</head>
+<body>
+  <main class="container flex flex-direc">
+    <section class="container-content">
+      <h1 class="content-title">
+        Simple, traffic-based pricing
+
+      </h1>
+      <p class="content-info">
+        Sign-up for our 30-day trial. No credit card required. 
+
+      </p>
+    </section>
+    <section class="container-box">
+      <div class="box">
+
+        <div class="box-content flex flex-direc">
+          <p class="page-view">
+            <span class="val-page-view"> 
+            </span>
+             Pageviews
+          </p>
+          <p class="value-price flex">
+            <span class="val-price">
+              $ <span class="price"></span>
+            </span>
+            <span class="per-price">
+             /month
+            </span>
+          </p>
+        </div>
+        <!-- INPUT BOX -->
+        <div class="input-box">
+          <input type="range" name='range' min='1' max = '5' value = '3' class="myRange">
+        </div>
+      </div>
+      <div class="billing-box flex">
+        <p class="month-bill">
+          Monthly Billing
+        </p>
+        <!-- TOGGLE BOX -->
+        <div class="toggle-box">
+          <div class="toggle-circle">
+          </div>
+        </div>
+        <p class="yearly-bill">
+          Yearly Billing 
+          <span class="discount-yearly-bill">
+            25%
+          </span>
+        </p>
+      </div>
+  
+      <div class="footer-box flex flex-direc">
+        <div class="footer-info">
+          <p>
+            Unlimited websites
+          </p>
+          <p>
+            100% data ownership
+          </p>
+          <p>
+            Email reports
+          </p>
+        </div>
+        <div class="btn">
+          <button class="btn-start">
+            Start my trial
+          </button> 
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="./script.js"></script>
+</body>
+</html>
